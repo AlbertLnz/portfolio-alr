@@ -1,4 +1,4 @@
-import image from "../assets/images/projects_imgs/restaurant.png";
+import image from "../assets/images/ProjectsComponent/restaurant.png";
 
 const StudiesComponent = () => {
   return (
