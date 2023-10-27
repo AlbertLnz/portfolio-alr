@@ -1,3 +1,4 @@
+import daisyui from "daisyui";
 import tailwindcssInnerBorder from "tailwindcss-inner-border";
 
 /** @type {import('tailwindcss').Config} */
@@ -6,5 +7,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [tailwindcssInnerBorder],
+  plugins: [tailwindcssInnerBorder, daisyui],
 };

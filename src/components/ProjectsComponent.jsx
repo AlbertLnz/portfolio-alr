@@ -1,10 +1,12 @@
+import { useTranslation } from "react-i18next";
 import image from "../assets/images/ProjectsComponent/restaurant.png";
 
 const ProjectsComponent = () => {
+  const [t] = useTranslation("global");
   return (
     <div className="h-full flex flex-col">
       <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
-        Projects
+        {t("projectName.title")}
       </h3>
       <div className="flex-grow grid grid-cols-10 grid-rows-6 rounded-lg bg-[#171719]">
         <img
