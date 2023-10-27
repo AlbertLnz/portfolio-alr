@@ -1,7 +1,7 @@
 const ChallengesComponent = () => {
   return (
     <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl py-2 font-extrabold bg-[#010101]">
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
         Challenging me!
       </h3>
       <div className="flex-grow grid grid-cols-10 grid-rows-6 rounded-lg bg-[#171719]">

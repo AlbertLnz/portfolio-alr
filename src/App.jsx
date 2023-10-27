@@ -30,22 +30,22 @@ function App() {
         <section className="lg:row-span-2 lg:col-span-1 p-3">
           <ColorThemeSelectorComponent />
         </section>
-        <section className="lg:row-span-5 lg:col-span-4 p-3">
+        <section className="lg:row-span-5 lg:col-span-4 pl-3">
           <ProjectsComponent />
         </section>
-        <section className="lg:row-span-4 lg:col-span-3 p-3">
+        <section className="lg:row-span-4 lg:col-span-3 px-3">
           <ChallengesComponent />
         </section>
-        <section className="lg:row-span-6 lg:col-span-3 p-3">
+        <section className="lg:row-span-6 lg:col-span-3 pr-3">
           <ToolsComponent />
         </section>
         <section className="lg:row-span-4 lg:col-span-3 p-3">
           <StudiesComponent />
         </section>
-        <section className="lg:row-span-3 lg:col-span-4 p-3">
+        <section className="lg:row-span-3 lg:col-span-4 py-3 pl-3">
           <CoursesComponent />
         </section>
-        <section className="lg:row-span-2 lg:col-span-2 p-3">
+        <section className="lg:row-span-2 lg:col-span-2 py-3">
           <LanguagesComponent />
         </section>
         <section className="lg:row-span-2 lg:col-span-1 p-3">

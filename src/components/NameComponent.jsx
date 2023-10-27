@@ -2,7 +2,7 @@ const NameComponent = () => {
   return (
     <div className="h-full flex">
       <div className="flex-grow grid grid-cols-2 grid-rows-1 rounded-lg bg-[#171719]">
-        <h3 className="col-span-1 flex self-center justify-center text-center py-2 text-5xl font-extrabold">
+        <h3 className="col-span-1 flex self-center justify-center text-center pb-1 text-5xl font-extrabold">
           Albert Lanza
         </h3>
         <div className="col-span-1 grid grid-cols-3 m-4">
