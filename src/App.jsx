@@ -1,44 +1,56 @@
+import ChallengesComponent from "./components/ChallengesComponent";
+import ColorThemeSelectorComponent from "./components/ColorThemeSelectorComponent";
+import CoursesComponent from "./components/CoursesComponent";
+import LanguageSelectorComponent from "./components/LanguageSelectorComponent";
+import LanguagesComponent from "./components/LanguagesComponent";
+import NameComponent from "./components/NameComponent";
+import OpenToWorkComponent from "./components/OpenToWorkComponent";
+import PhotoComponent from "./components/PhotoComponent";
+import PortfolioTechUsedComponent from "./components/PortfolioTechUsedComponent";
+import ProjectsComponent from "./components/ProjectsComponent";
+import StudiesComponent from "./components/StudiesComponent";
+import ToolsComponent from "./components/ToolsComponent";
+
 function App() {
   return (
     <div className="h-screen">
-      <div className="grid lg:grid-rows-10 lg:grid-cols-10 h-full">
-        <div className="lg:row-span-2 lg:col-span-2 bg-red-300">
-          <p>PHOTO</p>
-        </div>
-        <div className="lg:row-span-2 lg:col-span-5 bg-blue-300">
-          <p>NAME</p>
-        </div>
-        <div className="lg:row-span-2 lg:col-span-1 bg-green-300">
-          <p>OPEN</p>
-        </div>
-        <div className="lg:row-span-2 lg:col-span-1 bg-slate-300">
-          <p>EN</p>
-        </div>
-        <div className="lg:row-span-2 lg:col-span-1 bg-orange-300">
-          <p>DARK</p>
-        </div>
-        <div className="lg:row-span-6 lg:col-span-4 bg-slate-800">
-          <p>PROJECTS</p>
-        </div>
-        <div className="lg:row-span-5 lg:col-span-3 bg-slate-200">
-          <p>CHALLENGE</p>
-        </div>
-        <div className="lg:row-span-5 lg:col-span-3 bg-blue-800">
-          <p>TOOLS</p>
-        </div>
-
-        <div className="lg:row-span-3 lg:col-span-4 bg-orange-800">
-          <p>STUDIES</p>
-        </div>
-        <div className="lg:row-span-3 lg:col-span-1 bg-pink-400">
-          <p>LANGUAGES</p>
-        </div>
-        <div className="lg:row-span-3 lg:col-span-1 bg-stone-400">
-          <p>FIGMA</p>
-        </div>
-        <div className="lg:row-span-2 lg:col-span-4 bg-green-800">
-          <p>COURSES</p>
-        </div>
+      <div className="grid lg:grid-rows-10 lg:grid-cols-10 h-full bg-[#010101] text-white">
+        <section className="lg:row-span-2 lg:col-span-2 p-3">
+          <PhotoComponent />
+        </section>
+        <section className="lg:row-span-2 lg:col-span-5 p-3">
+          <NameComponent />
+        </section>
+        <section className="lg:row-span-2 lg:col-span-1 p-3">
+          <OpenToWorkComponent />
+        </section>
+        <section className="lg:row-span-2 lg:col-span-1 p-3">
+          <LanguageSelectorComponent />
+        </section>
+        <section className="lg:row-span-2 lg:col-span-1 p-3">
+          <ColorThemeSelectorComponent />
+        </section>
+        <section className="lg:row-span-5 lg:col-span-4 p-3">
+          <ProjectsComponent />
+        </section>
+        <section className="lg:row-span-4 lg:col-span-3 p-3">
+          <ChallengesComponent />
+        </section>
+        <section className="lg:row-span-6 lg:col-span-3 p-3">
+          <ToolsComponent />
+        </section>
+        <section className="lg:row-span-4 lg:col-span-3 p-3">
+          <StudiesComponent />
+        </section>
+        <section className="lg:row-span-3 lg:col-span-4 p-3">
+          <CoursesComponent />
+        </section>
+        <section className="lg:row-span-2 lg:col-span-2 p-3">
+          <LanguagesComponent />
+        </section>
+        <section className="lg:row-span-2 lg:col-span-1 p-3">
+          <PortfolioTechUsedComponent />
+        </section>
       </div>
     </div>
   );
