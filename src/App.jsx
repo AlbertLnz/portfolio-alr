@@ -14,7 +14,7 @@ import ToolsComponent from "./components/ToolsComponent";
 function App() {
   return (
     <div className="h-screen">
-      <div className="grid lg:grid-rows-10 lg:grid-cols-10 h-full bg-[#010101] text-white">
+      <div className="grid lg:grid-rows-10 lg:grid-cols-10 h-full dark:bg-[#010101] dark:text-white">
         <section className="lg:row-span-2 lg:col-span-2 p-3">
           <PhotoComponent />
         </section>
