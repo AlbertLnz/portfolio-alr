@@ -17,5 +17,30 @@
         "deploy": "www.youtube.es"
       }
     }
+  },
+  "coursesSection": {
+    "courses": {
+      "0": {
+        "title": "Introducció a la programació C++",
+        "type": "Learning",
+        "certificate": "",
+        "link_course": "",
+        "date": "02/2017"
+      },
+      "1": {
+        "title": "curso 2",
+        "type": "",
+        "certificate": "",
+        "link_course": "",
+        "date": ""
+      },
+      "2": {
+        "title": "curso 3",
+        "type": "",
+        "certificate": "",
+        "link_course": "",
+        "date": ""
+      }
+    }
   }
 }
