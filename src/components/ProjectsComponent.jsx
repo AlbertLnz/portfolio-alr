@@ -23,14 +23,14 @@ const ProjectsComponent = () => {
   };
 
   return (
-    <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
+    <>
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101] h-[12%]">
         {t("projectsSection.title")}
       </h3>
-      <div className="flex-grow grid grid-cols-10 grid-rows-6 rounded-lg pt-4 bg-[#171719]">
+      <div className="grid grid-cols-2 rounded-lg bg-[#171719] h-[88%] pb-1">
         <ProjectComponent_child project_position={positionProject} />
 
-        <div className="col-span-10 row-span-1 flex justify-between mx-14 rounded-b-lg">
+        <div className="col-span-2 flex justify-between items-end mx-14 rounded-b-lg">
           <button onClick={handleDecrementPositionSlider}>
             <img src={arrow_to_left} alt="arrow_to_left" />
           </button>
@@ -42,7 +42,7 @@ const ProjectsComponent = () => {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

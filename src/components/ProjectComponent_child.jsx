@@ -13,19 +13,19 @@ const ProjectComponent_child = ({ project_position }) => {
 
   return (
     <>
-      <div className="col-span-4 row-span-5 flex justify-center px-2 h-full">
+      <div className="col-span-1 justify-center px-2 h-full ml-4 mr-6 py-4">
         <img
           src={t(`projectsSection.projects.${project_position}.image`)}
           alt="project"
-          className="w-11/12 h-full object-cover rounded-lg"
+          className="object-cover h-full rounded-lg"
         />
       </div>
 
-      <div className="col-span-6 row-span-5 flex flex-col rounded-tr-lg h-full pr-2">
-        <h4 className="text-center text-2xl font-bold">
+      <div className="col-span-1 flex flex-col rounded-tr-lg pr-2 h-full">
+        <h4 className="text-center text-lg font-bold">
           {t(`projectsSection.projects.${project_position}.title`)}
         </h4>
-        <div className="flex place-content-center gap-6 pt-2">
+        <div className="flex place-content-center gap-6 pt-2 h-fit">
           <button onClick={() => setSelector("contributors")}>
             <img src={contributors_icon} alt="contributors" />
           </button>
@@ -48,11 +48,11 @@ const ProjectComponent_child = ({ project_position }) => {
           </button>
         </div>
         {selector !== "contributors" ? (
-          <div className="text-xs pt-4 mx-2 h-40 mb-4">
-            <p className="w-11/12">
+          <div className="text-xs pt-4 mx-2 mb-4 h-full">
+            <p className="line-clamp-6 overflow-y-scroll">
               {t(`projectsSection.projects.${project_position}.description`)}
             </p>
-            <div className="flex mt-4">
+            <div className="flex mt-4 h-[20%]">
               {projectTechnologies[project_position].map((item) => (
                 <p key={item.tech} className="mx-2">
                   {item.tech}
