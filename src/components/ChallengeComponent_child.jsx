@@ -9,8 +9,11 @@ const ChallengeComponent_child = ({ technology, num_video, onNameChange }) => {
   onNameChange(challengesVideos[technology][num_video].name); // send name info to parent
 
   return (
-    <div>
-      <Video poster={poster}>
+    <div className="w-full h-full relative">
+      <Video
+        poster={poster}
+        className="w-full h-full py-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg"
+      >
         <source src={video} type="video/mp4" />
       </Video>
     </div>

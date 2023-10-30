@@ -73,7 +73,7 @@ const ChallengesComponent = () => {
             Select a language!
           </p>
         ) : (
-          <div className="col-span-10 row-span-1 flex justify-between items-center gap-4 mx-3 mb-2 rounded-lg bg-black">
+          <div className="col-span-10 row-span-1 flex justify-between items-center gap-4 mx-3 mb-2 mt-1 rounded-lg bg-black">
             <button className="pl-3" onClick={decrementVideoPosition}>
               <img src={arrow_left} alt="arrow_left" />
             </button>
@@ -84,15 +84,13 @@ const ChallengesComponent = () => {
           </div>
         )}
 
-        <div className="col-span-10 row-span-4 mx-3 mb-2 rounded-lg bg-black">
+        <div className="col-span-10 row-span-4 flex flex-grow mx-3 mb-2 rounded-lg">
           {languageSelected != null && (
-            <>
-              <ChallengeComponent_child
-                technology={languageSelected}
-                num_video={videoSelected}
-                onNameChange={handleChildNameChange}
-              />
-            </>
+            <ChallengeComponent_child
+              technology={languageSelected}
+              num_video={videoSelected}
+              onNameChange={handleChildNameChange}
+            />
           )}
         </div>
       </div>
