@@ -20,26 +20,89 @@
   },
   "coursesSection": {
     "courses": {
-      "0": {
-        "title": "Introducció a la programació C++",
-        "type": "Learning",
-        "certificate": "",
-        "link_course": "",
-        "date": "02/2017"
-      },
       "1": {
-        "title": "curso 2",
-        "type": "",
-        "certificate": "",
-        "link_course": "",
-        "date": ""
+        "title": "The NASA International Space Apps Challenge",
+        "type": "Hackathon",
+        "certificate": "https://www.linkedin.com/posts/aar%C3%B3n-murillo-lort-b039b01a1_last-weekend-we-had-the-honour-to-be-a-part-activity-7118245275999059968-NN-d?utm_source=share&utm_medium=member_desktop",
+        "link_course": "https://www.spaceappschallenge.org/2023/locations/barcelona/",
+        "date": "10/2023"
       },
       "2": {
-        "title": "curso 3",
-        "type": "",
-        "certificate": "",
+        "title": "Figma - Create your mockups",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1UOPOMw8P5qk_GJcKEMXLRAd2f2Aje4VQ/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1266485",
+        "date": "07/2023"
+      },
+      "3": {
+        "title": "Hackathon Tech4Good",
+        "type": "Hackathon",
+        "certificate": "https://drive.google.com/file/d/142Fc75X8MJWt5kjyCtEa2QVKdiHv5Am3/view?usp=sharing",
+        "link_course": "http://hackathon.techlabs.org/details.html",
+        "date": "06/2023"
+      },
+      "4": {
+        "title": "Learn to program an API in PHP & MySQL",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1R1ZGuyOHBAR3VTVz4ZQod-dfnMgjzF7H/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1274454",
+        "date": "05/2023"
+      },
+      "5": {
+        "title": "Svelte, the Great Unknown",
+        "type": "Talks",
+        "certificate": "https://drive.google.com/file/d/1e4ea_2dqzNt5qigifRS3CbR_vrHwoYjB/view?usp=sharing",
         "link_course": "",
-        "date": ""
+        "date": "04/2023"
+      },
+      "6": {
+        "title": "Professional Growth in Multinational Companies",
+        "type": "Talks",
+        "certificate": "https://drive.google.com/file/d/1FQOFxE1v3Zof6hN7Gp3SgGNbWbW6_0d-/view?usp=sharing",
+        "link_course": "",
+        "date": "04/2023"
+      },
+      "7": {
+        "title": "Introduction to JavaScript language",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1RtrGSYVGaGNvHrlyNkEU2HWNKtxDwnqE/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267258",
+        "date": "04/2023"
+      },
+      "8": {
+        "title": "Make a website with PHP, MySQL & Apache (LAMP)",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1HcDDo0-NYkKNbgqmPLnjqkuuONTZD60U/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267312",
+        "date": "03/2023"
+      },
+      "9": {
+        "title": "Manage Databases with MySQL",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1aYdkTz4OlqY_69DEb0XRYbZFQDX_Y2oi/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267314",
+        "date": "03/2023"
+      },
+      "10": {
+        "title": "Artificial Intelligence and Data in the midst of the ChatGPT boom",
+        "type": "Talks",
+        "certificate": "https://drive.google.com/file/d/1Dx5HD6CbsAC77N09TOrhEVpCqfQb1_Ln/view?usp=sharing",
+        "link_course": "https://eurecat.org/el-boom-de-la-intelligencia-artificial-molt-mes-que-el-chatgpt/",
+        "date": "03/2023"
+      },
+      "11": {
+        "title": "Learn Low Code - CSS",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1wrSlkoPDYFSJJajmD4nY6Efm4BIVab44/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1266830",
+        "date": "10/2022"
+      },
+      "12": {
+        "title": "Introduction to C++ Programming",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1sSAXrmLGsNlCSPXOHmpOkH5-Pv5qRkid/view?usp=sharing",
+        "link_course": "",
+        "date": "02/2019"
       }
     }
   },

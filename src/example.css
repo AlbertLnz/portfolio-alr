@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.container .steps {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  jusitfy-content: space-between;
+}
+
+.steps .circle {
+  display: flex;
+  align-items: center;
+  jusitfy-content: center;
+  height: 50px;
+  width: 50px;
+  color: #999;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 50%;
+  border: 4px solid #e0e0e0;
+  background: #fff;
+  position: relative;
+}
+
+.steps .progress-bar {
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #e0e0e0;
+}
+
+.progress-bar .indicator {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #4070f4;
+}
+
+.container .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons {
+}
