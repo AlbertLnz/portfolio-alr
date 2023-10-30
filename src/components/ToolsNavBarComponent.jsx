@@ -9,7 +9,7 @@ const ToolsNavBarComponent = ({ onSelectedChange }) => {
   };
 
   return (
-    <div className="text-slate-100 flex">
+    <div className="text-slate-100 h-full">
       <SideNav handleOptionSelected={handleOptionSelected} />
     </div>
   );
@@ -23,7 +23,7 @@ const SideNav = ({ handleOptionSelected }) => {
   };
 
   return (
-    <nav className="h-full w-full p-4 flex flex-col justify-center items-center place-content-center gap-6">
+    <nav className="w-full h-full flex flex-col gap-1 place-content-center items-center justify-center">
       <li className="list-none" onClick={() => handleItemClick("tools")}>
         <NavItem selected={selected === 0} id={0} setSelected={setSelected}>
           <FaToolbox />
@@ -51,7 +51,7 @@ const SideNav = ({ handleOptionSelected }) => {
 const NavItem = ({ children, selected, id, setSelected }) => {
   return (
     <motion.button
-      className="p-5 text-xl rounded-2xl transition-colors relative"
+      className="p-4 text-xl rounded-2xl transition-colors relative"
       onClick={() => setSelected(id)}
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}

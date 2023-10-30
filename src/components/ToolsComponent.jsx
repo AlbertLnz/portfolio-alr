@@ -12,11 +12,11 @@ const ToolsComponent = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101] h-[12%]">
         Tools
       </h3>
-      <div className="flex-grow grid grid-cols-10 rounded-lg h-full bg-[#171719]">
-        <div className="col-span-7 mx-3 my-2 rounded-lg">
+      <div className="grid grid-cols-10 rounded-lg bg-[#171719] h-[88%]">
+        <div className="col-span-7 mx-3 my-2 rounded-lg h-fit">
           {selectedValue === "tools" && (
             <ul className="grid grid-cols-3 place-items-start justify-items-center rounded-lg gap-y-4 py-3">
               <ToolsCardComponent_child
@@ -67,13 +67,79 @@ const ToolsComponent = () => {
             </ul>
           )}
           {selectedValue === "php" && (
-            <div className="mt-4">
-              <ToolTechComponent_child
-                image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"
-                name="Laravel"
-                website="https://laravel.com/"
-              />
-            </div>
+            <>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://pngimg.com/d/php_PNG26.png"
+                  name="PHP"
+                  website="https://www.php.net/"
+                />
+              </div>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"
+                  name="Laravel"
+                  website="https://laravel.com/"
+                />
+              </div>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://cdn.freebiesupply.com/logos/large/2x/codeigniter-logo-png-transparent.png"
+                  name="Codeigniter"
+                  website="https://codeigniter.com/"
+                />
+              </div>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://cdn.freebiesupply.com/logos/large/2x/symfony-logo-png-transparent.png"
+                  name="Symfony"
+                  website="https://symfony.com/"
+                />
+              </div>
+            </>
+          )}
+          {selectedValue === "javascript" && (
+            <>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+                  name="JavaScript"
+                  website="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                />
+              </div>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+                  name="React"
+                  website="https://react.dev/"
+                />
+              </div>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://www.iteachrecruiters.com/img/blog/logo/react-native.png  "
+                  name="React Native"
+                  website="https://reactnative.dev/"
+                />
+              </div>
+            </>
+          )}
+          {selectedValue === "python" && (
+            <>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png"
+                  name="Python"
+                  website="https://www.python.org/"
+                />
+              </div>
+              <div className="mt-2">
+                <ToolTechComponent_child
+                  image="https://seeklogo.com/images/F/fastapi-logo-541BAA112F-seeklogo.com.png"
+                  name="FastAPI"
+                  website="https://fastapi.tiangolo.com/"
+                />
+              </div>
+            </>
           )}
         </div>
         <div className="col-span-3 mr-3 my-2 rounded-2xl bg-black">
