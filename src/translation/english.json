@@ -4,16 +4,38 @@
     "projects": {
       "0": {
         "title": "API Dice",
-        "image": "https://media-cdn.tripadvisor.com/media/photo-s/14/2b/8c/71/nueva-terraza.jpg",
         "description": "The game involves rolling 2 dice; if the user rolls a 7, they win; otherwise, they lose. To play, you must register beforehand either as an anonymous user or using a username and email, with the advantage of being able to check your results (previous rolls and average). There is a ranking for the best player, the worst player and the overall ranking, which is restricted by the administrator user. All of this follows the MVC design pattern.",
         "github": "https://github.com/AlbertLnz/dice-API",
         "deploy": "www.facebook.es"
       },
       "1": {
         "title": "Football Managment App",
-        "image": "https://imagenes.elpais.com/resizer/3H2mH6qTijJjrOCkkEcUCPV__ac=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/3WIF3U3A2FF7VH5GFFHNTBWE2U.jpg",
         "description": "The application involves the management of a soccer league, allowing users to view and create teams, players and matches. All the data is interconnected through relationships among different tables configured in a SQL database. Any user can query the application's data, but only the administrator has the ability to create them.",
         "github": "https://github.com/AlbertLnz/Football-managment-app",
+        "deploy": "www.youtube.es"
+      },
+      "2": {
+        "title": "CRUD Redux Toolkit",
+        "description": "Crud",
+        "github": "https://github.com/AlbertLnz/CRUD-Redux-Toolkit",
+        "deploy": "www.youtube.es"
+      },
+      "3": {
+        "title": "ITA Landing",
+        "description": "Crud",
+        "github": "https://github.com/IT-Academy-BCN/ita-landing-frontend",
+        "deploy": "www.youtube.es"
+      },
+      "4": {
+        "title": "TableTrek",
+        "description": "Crud",
+        "github": "https://github.com/No-Country/nc_c14-40-m-php-vue",
+        "deploy": "www.youtube.es"
+      },
+      "5": {
+        "title": "ITA Profiles",
+        "description": "Crud",
+        "github": "https://github.com/IT-Academy-BCN/ita-landing-frontend",
         "deploy": "www.youtube.es"
       }
     }

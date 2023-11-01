@@ -30,7 +30,7 @@ function App() {
         <section className="lg:row-span-2 lg:col-span-1 p-3">
           <ColorThemeSelectorComponent />
         </section>
-        <section className="lg:row-span-5 lg:col-span-4 pl-3">
+        <section className="flex flex-col lg:row-span-5 lg:col-span-4 pl-3">
           <ProjectsComponent />
         </section>
         <section className="lg:row-span-4 lg:col-span-3 px-3">

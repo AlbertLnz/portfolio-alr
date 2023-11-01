@@ -1,24 +1,19 @@
 const projectTechnologies = [
+  [{ logo: "", tech: "Laravel", color: "text-[#ff2e20]" }],
   [
-    {
-      tech: "FastAPI",
-      color: "red-500",
-    },
-    {
-      tech: "React",
-      color: "green-500",
-    },
+    { logo: "", tech: "Laravel", color: "text-[#ff2e20]" },
+    { logo: "", tech: "Tailwind", color: "text-[#38bdf8]" },
+  ],
+  [{ logo: "", tech: "React", color: "text-[#0c97c2]" }],
+  [
+    { logo: "", tech: "React", color: "text-[#0c97c2]" },
+    { logo: "", tech: "Tailwind", color: "text-[#38bdf8]" },
   ],
   [
-    {
-      tech: "Python",
-      color: "356c9b",
-    },
-    {
-      tech: "Laravel",
-      color: "f7463a",
-    },
+    { logo: "", tech: "Vue", color: "text-[#3fb27f]" },
+    { logo: "", tech: "Laravel", color: "text-[#38bdf8]" },
   ],
+  [{ logo: "", tech: "React", color: "text-[#0c97c2]" }],
 ];
 
 export default projectTechnologies;
