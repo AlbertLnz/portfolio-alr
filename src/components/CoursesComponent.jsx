@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import calendar_back from "../assets/images/CoursesComponent/calendar_back.svg";
 import calendar_now from "../assets/images/CoursesComponent/calendar_now.svg";
-import calendar_timeline from "../assets/images/CoursesComponent/calendar_timeline.png";
 import CoursesTimeLineComponent from "./CoursesTimeLineComponent";
 
 const CoursesComponent = () => {
@@ -30,57 +29,56 @@ const CoursesComponent = () => {
       <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
         Courses
       </h3>
-      <div className="flex-grow grid grid-cols-10 rounded-lg bg-[#171719]">
-        <div className="col-span-2 flex flex-col place-items-center justify-center ml-3 my-2 rounded-lg">
+      <div className="flex-grow rounded-lg bg-[#171719]">
+        <div className="flex justify-between items-center my-4">
+          <p className="text-lg font-bold line-clamp-1 text-center w-full">
+            {t(`coursesSection.courses.${selectorCourse}.title`)}
+          </p>
+          <p
+            className={`text-sm font-bold mr-2 px-4 py-0.5 rounded-full text-black ${typeColor}`}
+          >
+            {t(`coursesSection.courses.${selectorCourse}.type`)}
+          </p>
+        </div>
+        <div className="flex items-center justify-end mr-2 gap-2">
+          <a
+            href={t(`coursesSection.courses.${selectorCourse}.certificate`)}
+            className="text-black text-xs rounded-full px-3 py.0.5 bg-[#d1d3d9] hover:bg-white"
+          >
+            Certificate
+          </a>
+          <a
+            href={t(`coursesSection.courses.${selectorCourse}.link_course`)}
+            className="text-black text-xs rounded-full px-3 py.0.5 bg-[#d1d3d9] hover:bg-white"
+          >
+            Course
+          </a>
+          <p className="text-black text-xs rounded-md px-3 py.0.5 bg-white">
+            {t(`coursesSection.courses.${selectorCourse}.date`)}
+          </p>
+        </div>
+
+        <div className="flex place-items-center justify-center mx-3 mt-4 rounded-lg">
           <button
-            className="flex items-center justify-center py-2 px-2 hover:bg-[#23272f]"
+            className="flex items-center justify-center py-2 px-2 hover:bg-[#23272f] rounded-md"
             onClick={handleDecrementCourse}
           >
             <img src={calendar_back} alt="calendar_back" />
           </button>
 
-          <button
-            className="flex items-center justify-center py-2 px-2 hover:bg-[#23272f]"
-            onClick={handleIncrementCourse}
-          >
-            <img src={calendar_now} alt="calendar_now" />
-          </button>
-        </div>
-        <div className="col-span-8 grid grid-rows-3 mr-3 my-2 rounded-lg">
-          <div className="flex justify-between items-center">
-            <p className="text-md font-bold line-clamp-1">
-              {t(`coursesSection.courses.${selectorCourse}.title`)}
-            </p>
-            <p
-              className={`text-sm font-bold mr-2 px-4 py-0.5 rounded-full text-black ${typeColor}`}
-            >
-              {t(`coursesSection.courses.${selectorCourse}.type`)}
-            </p>
-          </div>
-          <div className="flex items-center gap-6 ml-4">
-            <a
-              href={t(`coursesSection.courses.${selectorCourse}.certificate`)}
-              className="text-black text-xs rounded-full px-3 py.0.5 bg-slate-200"
-            >
-              Certificate
-            </a>
-            <a
-              href={t(`coursesSection.courses.${selectorCourse}.link_course`)}
-              className="text-black text-xs rounded-full px-3 py.0.5 bg-slate-200"
-            >
-              Course
-            </a>
-            <p className="text-black text-xs rounded-full px-3 py.0.5 bg-slate-200">
-              {t(`coursesSection.courses.${selectorCourse}.date`)}
-            </p>
-          </div>
-          <div className="flex place-items-end">
-            <img src={calendar_timeline} alt="" className="w-6" />
+          <div className="flex  grow">
             <CoursesTimeLineComponent
               position={selectorCourse}
               color={handleColorOfType}
             />
           </div>
+
+          <button
+            className="flex items-center justify-center py-2 px-2 hover:bg-[#23272f] rounded-md"
+            onClick={handleIncrementCourse}
+          >
+            <img src={calendar_now} alt="calendar_now" />
+          </button>
         </div>
       </div>
     </div>

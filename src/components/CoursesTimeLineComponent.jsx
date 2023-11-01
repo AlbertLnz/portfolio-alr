@@ -30,7 +30,7 @@ const CoursesTimeLineComponent = ({ position, color }) => {
         {circles.map((circle) => (
           <span
             key={circle.id}
-            className={`z-10 rounded-full w-4 h-4 text-[10px] flex justify-center text-black ${
+            className={`z-10 rounded-full w-6 h-6 text-xs flex justify-center items-center text-black ${
               circle.color
             } ${circle.active ? "active font-bold" : ""}`}
           >
@@ -38,7 +38,7 @@ const CoursesTimeLineComponent = ({ position, color }) => {
           </span>
         ))}
 
-        <div className="flex items-center absolute h-4 w-full z-0">
+        <div className="flex items-center absolute h-6 w-full z-0">
           <span
             className="absolute h-1/2 bg-[#2b3037] rounded-full px-1 transition-all duration-500"
             style={{
