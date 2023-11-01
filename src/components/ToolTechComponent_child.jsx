@@ -1,6 +1,6 @@
 import { useState } from "react";
-import book from "../assets/images/ToolComponent/book.svg";
-import worldwide from "../assets/images/ToolComponent/worldwide.svg";
+import book from "../assets/images/ToolsComponent/book.svg";
+import worldwide from "../assets/images/ToolsComponent/worldwide.svg";
 import ToolsComponentLibrariesModal from "./ToolsComponentLibrariesModal";
 
 const ToolTechComponent_child = ({ image, name, website }) => {
