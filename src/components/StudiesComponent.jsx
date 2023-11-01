@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import studyImages from "../services/StudiesImages";
 
 const StudiesComponent = () => {
   const [t] = useTranslation("global");
@@ -11,30 +12,20 @@ const StudiesComponent = () => {
         Studies
       </h3>
       <div className="flex-grow grid grid-cols-10 rounded-lg p-3 bg-[#171719]">
-        <img
-          src={t(`studiesSection.studies.${visibleStudy}.image`)}
-          alt="photo_study"
-          className="col-span-4 h-full rounded-lg object-cover"
-        />
-        <div className="col-span-5 carousel carousel-vertical mx-3">
-          <div id="item1" className="carousel-item h-full flex flex-col">
-            <ul className={`${visibleStudy === 1 ? "block h-full" : "hidden"}`}>
-              <li className="text-xs font-extrabold mt-2">Study:</li>
-              <li className="ml-2 text-sm">
-                {t("studiesSection.studies.0.title")}
-              </li>
-              <li className="text-xs font-extrabold mt-2">Academy:</li>
-              <li className="ml-2 text-sm">
-                {t("studiesSection.studies.0.academy")}
-              </li>
-              <li className="text-xs font-extrabold mt-2">Period:</li>
-              <li className="ml-2 text-sm">
-                {t("studiesSection.studies.0.period")}
-              </li>
-            </ul>
-          </div>
-          <div id="item2" className="carousel-item h-full flex flex-col">
-            <ul className={`${visibleStudy === 2 ? "block h-full" : "hidden"}`}>
+        <div className="col-span-9 carousel carousel-vertical mx-3">
+          <div id="item1" className={`carousel-item h-full grid grid-cols-9`}>
+            <img
+              src={studyImages[visibleStudy - 1]}
+              alt="photo_study"
+              className={`col-span-4 rounded-lg object-cover h-full ${
+                visibleStudy === 1 ? "block" : "hidden"
+              }`}
+            />
+            <ul
+              className={`ml-2 col-span-5 ${
+                visibleStudy === 1 ? "block h-full" : "hidden"
+              }`}
+            >
               <li className="text-xs font-extrabold mt-2">Study:</li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.1.title")}
@@ -49,8 +40,19 @@ const StudiesComponent = () => {
               </li>
             </ul>
           </div>
-          <div id="item3" className="carousel-item h-full flex flex-col">
-            <ul className={`${visibleStudy === 3 ? "block h-full" : "hidden"}`}>
+          <div id="item2" className="carousel-item h-full grid grid-cols-9">
+            <img
+              src={studyImages[visibleStudy - 1]}
+              alt="photo_study"
+              className={`col-span-4 rounded-lg object-cover h-full ${
+                visibleStudy === 2 ? "block" : "hidden"
+              }`}
+            />
+            <ul
+              className={`ml-2 col-span-5 ${
+                visibleStudy === 2 ? "block h-full" : "hidden"
+              }`}
+            >
               <li className="text-xs font-extrabold mt-2">Study:</li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.2.title")}
@@ -65,8 +67,19 @@ const StudiesComponent = () => {
               </li>
             </ul>
           </div>
-          <div id="item4" className="carousel-item h-full flex flex-col">
-            <ul className={`${visibleStudy === 4 ? "block h-full" : "hidden"}`}>
+          <div id="item3" className="carousel-item h-full grid grid-cols-9">
+            <img
+              src={studyImages[visibleStudy - 1]}
+              alt="photo_study"
+              className={`col-span-4 rounded-lg object-cover h-full ${
+                visibleStudy === 3 ? "block" : "hidden"
+              }`}
+            />
+            <ul
+              className={`ml-2 col-span-5 ${
+                visibleStudy === 3 ? "block h-full" : "hidden"
+              }`}
+            >
               <li className="text-xs font-extrabold mt-2">Study:</li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.3.title")}
@@ -81,8 +94,19 @@ const StudiesComponent = () => {
               </li>
             </ul>
           </div>
-          <div id="item5" className="carousel-item h-full flex flex-col">
-            <ul className={`${visibleStudy === 5 ? "block h-full" : "hidden"}`}>
+          <div id="item4" className="carousel-item h-full grid grid-cols-9">
+            <img
+              src={studyImages[visibleStudy - 1]}
+              alt="photo_study"
+              className={`col-span-4 rounded-lg object-cover h-full ${
+                visibleStudy === 4 ? "block" : "hidden"
+              }`}
+            />
+            <ul
+              className={`ml-2 col-span-5 ${
+                visibleStudy === 4 ? "block h-full" : "hidden"
+              }`}
+            >
               <li className="text-xs font-extrabold mt-2">Study:</li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.4.title")}
@@ -94,6 +118,33 @@ const StudiesComponent = () => {
               <li className="text-xs font-extrabold mt-2">Period:</li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.4.period")}
+              </li>
+            </ul>
+          </div>
+          <div id="item5" className="carousel-item h-full grid grid-cols-9">
+            <img
+              src={studyImages[visibleStudy - 1]}
+              alt="photo_study"
+              className={`col-span-4 rounded-lg object-cover h-full ${
+                visibleStudy === 5 ? "block" : "hidden"
+              }`}
+            />
+            <ul
+              className={`ml-2 col-span-5 ${
+                visibleStudy === 5 ? "block h-full" : "hidden"
+              }`}
+            >
+              <li className="text-xs font-extrabold mt-2">Study:</li>
+              <li className="ml-2 text-sm">
+                {t("studiesSection.studies.5.title")}
+              </li>
+              <li className="text-xs font-extrabold mt-2">Academy:</li>
+              <li className="ml-2 text-sm">
+                {t("studiesSection.studies.5.academy")}
+              </li>
+              <li className="text-xs font-extrabold mt-2">Period:</li>
+              <li className="ml-2 text-sm">
+                {t("studiesSection.studies.5.period")}
               </li>
             </ul>
           </div>

@@ -130,34 +130,29 @@
   },
   "studiesSection": {
     "studies": {
-      "0": {
+      "1": {
         "title": "FullStack PHP Bootcamp",
         "academy": "IT Academy",
-        "image": "https://estatics-nasia.dtibcn.cat/nasia-pro/media/2015%2C05%2Cbcn-growth-center-760x428.jpg",
         "period": "2022 - 2023"
       },
-      "1": {
+      "2": {
         "title": "Degree in Economics",
         "academy": "University of Barcelona",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Facultat_d%27Economia_i_Empresa_-_UB.JPG",
         "period": "2020 - 2023"
       },
-      "2": {
+      "3": {
         "title": "Transport & Logistics",
         "academy": "CE Prat",
-        "image": "https://www.prateducacio.com/wp-content/uploads/2020/06/prat-educacio-1-1024x577.jpg",
         "period": "2020 - 2021"
       },
-      "3": {
+      "4": {
         "title": "International Trade",
         "academy": "CE Prat",
-        "image": "https://www.prateducacio.com/wp-content/uploads/2020/06/prat-educacio-1-1024x577.jpg",
         "period": "2018 - 2020"
       },
-      "4": {
+      "5": {
         "title": "Social Sciences High School",
         "academy": "La Salle",
-        "image": "https://www.micole.net/imagenes/colegio/logo/21295/la-salle-montcada_512.png",
         "period": "2016 - 2018"
       }
     }
