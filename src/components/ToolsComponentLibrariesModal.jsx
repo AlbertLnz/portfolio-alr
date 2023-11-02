@@ -33,7 +33,7 @@ const ToolsComponentLibrariesModal = ({ name, openModal }) => {
   return (
     <div>
       <dialog id="my_modal" className="modal">
-        <div className="modal-box text-center bg-[#1d232a]">
+        <div className="modal-box text-center bg-[#ffffff] dark:bg-[#1d232a]">
           <h3 className="font-bold text-xl pb-4">
             Documentation of <span className="underline">{name}</span> I used
             frequently

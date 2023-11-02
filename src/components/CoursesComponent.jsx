@@ -26,10 +26,10 @@ const CoursesComponent = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
         Courses
       </h3>
-      <div className="flex-grow rounded-lg bg-[#171719]">
+      <div className="flex-grow rounded-lg bg-[#f6f7f9] dark:bg-[#171719]">
         <div className="flex justify-between items-center my-4">
           <p className="text-lg font-bold line-clamp-1 text-center w-full">
             {t(`coursesSection.courses.${selectorCourse}.title`)}
@@ -60,7 +60,7 @@ const CoursesComponent = () => {
 
         <div className="flex place-items-center justify-center mx-3 mt-4 rounded-lg">
           <button
-            className="flex items-center justify-center py-2 px-2 hover:bg-[#23272f] rounded-md"
+            className="flex items-center justify-center py-2 px-2 hover:bg-[#d1d5db] hover:dark:bg-[#23272f] rounded-md"
             onClick={handleDecrementCourse}
           >
             <img src={calendar_back} alt="calendar_back" />
@@ -74,7 +74,7 @@ const CoursesComponent = () => {
           </div>
 
           <button
-            className="flex items-center justify-center py-2 px-2 hover:bg-[#23272f] rounded-md"
+            className="flex items-center justify-center py-2 px-2 hover:bg-[#d1d5db] hover:dark:bg-[#23272f] rounded-md"
             onClick={handleIncrementCourse}
           >
             <img src={calendar_now} alt="calendar_now" />

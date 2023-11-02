@@ -25,10 +25,10 @@ const ProjectsComponent = () => {
 
   return (
     <>
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
         {t("projectsSection.title")}
       </h3>
-      <div className="flex flex-col grow rounded-lg bg-[#171719]">
+      <div className="flex flex-col grow rounded-lg bg-[#f6f7f9] dark:bg-[#171719]">
         <ProjectComponent_child
           project_position={positionProject}
           image={projectImages[positionProject]}

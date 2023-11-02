@@ -12,7 +12,7 @@ const handleDownload = () => {
 const NameComponent = () => {
   return (
     <div className="h-full flex">
-      <div className="flex-grow grid grid-cols-2 grid-rows-1 rounded-lg bg-[#171719]">
+      <div className="flex-grow grid grid-cols-2 grid-rows-1 rounded-lg bg-[#f6f7f9] dark:bg-[#171719]">
         <h3 className="col-span-1 flex self-center justify-center ml-4 text-center pb-1 text-4xl font-extrabold">
           Albert Lanza Rio
         </h3>
@@ -21,7 +21,7 @@ const NameComponent = () => {
             href="https://www.linkedin.com/in/albert-lanza-rio/"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-4 my-1 rounded-2xl items-center place-content-center bg-[#0f0f11] hover:bg-[#0a66c2] hover:inner-border-2 hover:inner-border-[#004182]"
+            className="flex mx-4 my-1 rounded-2xl items-center place-content-center bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#0a66c2] hover:dark:bg-[#0a66c2] hover:inner-border-2 hover:inner-border-[#004182]"
           >
             <img
               src={linkedin_icon}
@@ -31,7 +31,7 @@ const NameComponent = () => {
           </a>
 
           <button
-            className="flex mx-4 my-1 rounded-2xl items-center place-content-center bg-[#0f0f11] hover:bg-[#7c878e] hover:inner-border-2 hover:inner-border-[#434b50]"
+            className="flex mx-4 my-1 rounded-2xl items-center place-content-center bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#7c878e] hover:dark:bg-[#7c878e] hover:inner-border-2 hover:inner-border-[#434b50]"
             onClick={handleDownload}
           >
             <img src={cv} alt="cv" className="w-5 rounded-md" />
@@ -41,7 +41,7 @@ const NameComponent = () => {
             href="mailto: albert.lnz.rio@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-4 my-1 rounded-2xl items-center place-content-center bg-[#0f0f11] hover:bg-[#e84f4b] hover:inner-border-2 hover:inner-border-[#be3b27]"
+            className="flex mx-4 my-1 rounded-2xl items-center place-content-center bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#e84f4b] hover:dark:bg-[#e84f4b] hover:inner-border-2 hover:inner-border-[#be3b27]"
           >
             <img src={mail} alt="mail" className="w-7 rounded-md" />
           </a>
@@ -50,7 +50,7 @@ const NameComponent = () => {
             href="https://github.com/AlbertLnz"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-4 rounded-2xl items-center place-content-center bg-[#0f0f11] hover:bg-[#f6cd63] hover:inner-border-2 hover:inner-border-[#f1b739]"
+            className="flex mx-4 rounded-2xl items-center place-content-center bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#f6cd63] hover:dark:bg-[#f6cd63] hover:inner-border-2 hover:inner-border-[#f1b739]"
           >
             <img src={github} alt="github" className="w-6 rounded-md" />
           </a>
@@ -59,12 +59,14 @@ const NameComponent = () => {
             href="https://discord.com/users/818193746872762388"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-4 rounded-2xl items-center place-content-center bg-[#0f0f11] hover:bg-[#5865f2] hover:inner-border-2 hover:inner-border-[#292841]"
+            className="flex mx-4 rounded-2xl items-center place-content-center bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#5865f2] hover:dark:bg-[#5865f2] hover:inner-border-2 hover:inner-border-[#292841]"
           >
             <img src={discord} alt="discord" className="w-6 rounded-md" />
           </a>
 
-          <button className="bg-[#0f0f11] mx-4 rounded-2xl">6</button>
+          <button className="bg-[#d1d5db] dark:bg-[#0f0f11] mx-4 rounded-2xl">
+            6
+          </button>
         </div>
       </div>
     </div>

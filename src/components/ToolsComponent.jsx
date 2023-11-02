@@ -14,10 +14,10 @@ const ToolsComponent = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101] h-[12%]">
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
         Tools
       </h3>
-      <div className="grid grid-cols-10 rounded-lg bg-[#171719] h-[88%]">
+      <div className="grid grid-cols-10 rounded-lg bg-[#f6f7f9] dark:bg-[#171719] h-full">
         <div className="col-span-7 mx-3 my-2 rounded-lg h-fit">
           {selectedValue === "tools" && (
             <ul className="grid grid-cols-3 place-items-start justify-items-center rounded-lg gap-y-4 py-3">
@@ -120,7 +120,7 @@ const ToolsComponent = () => {
             </>
           )}
         </div>
-        <div className="col-span-3 mr-3 my-2 rounded-2xl bg-black">
+        <div className="col-span-3 mr-3 my-2 rounded-2xl bg-white dark:bg-black">
           <IconSideNav onSelectedChange={handleSelectedChange} />
         </div>
       </div>

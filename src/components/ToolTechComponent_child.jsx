@@ -11,7 +11,7 @@ const ToolTechComponent_child = ({ image, name, website }) => {
   };
 
   return (
-    <div className="flex w-full rounded-md bg-[#212121]">
+    <div className="flex w-full rounded-md bg-[#d1d5db] dark:bg-[#212121]">
       <img className="w-12 p-2 rounded-l-md h-full" src={image} alt={name} />
       <p className="flex items-center w-full text-xl font-bold pl-1">{name}</p>
 

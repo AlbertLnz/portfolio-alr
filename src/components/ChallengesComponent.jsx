@@ -38,42 +38,42 @@ const ChallengesComponent = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold bg-[#010101]">
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
         Challenging me!
       </h3>
-      <div className="flex-grow grid grid-cols-10 grid-rows-6 rounded-lg bg-[#171719]">
+      <div className="flex-grow grid grid-cols-10 grid-rows-6 rounded-lg bg-[#f6f7f9] dark:bg-[#171719]">
         <div className="col-span-10 row-span-1 rounded-t-lg flex items-center justify-center">
           <button
             className={`text-sm w-1/3 h-full font-bold rounded-tl-lg ${
-              languageSelected === 0 ? "bg-[#7377ad]" : ""
-            } hover:bg-[#7377ad]`}
+              languageSelected === 0 ? "bg-[#9ea1ce] dark:bg-[#7377ad]" : ""
+            } hover:bg-[#9ea1ce] hover:dark:bg-[#7377ad]`}
             onClick={() => handleLanguage("php")}
           >
             PHP
           </button>
           <button
             className={`text-sm w-1/3 h-full font-bold ${
-              languageSelected === 1 ? "bg-[#dab92d]" : ""
-            } hover:bg-[#dab92d]`}
+              languageSelected === 1 ? "bg-[#dcc976] dark:bg-[#dab92d]" : ""
+            } hover:bg-[#dcc976] hover:dark:bg-[#dab92d]`}
             onClick={() => handleLanguage("javascript")}
           >
             JavaScript
           </button>
           <button
             className={`text-sm w-1/3 h-full font-bold rounded-tr-lg ${
-              languageSelected === 2 ? "bg-[#366e9d]" : ""
-            } hover:bg-[#366e9d]`}
+              languageSelected === 2 ? "bg-[#85b7dd] dark:bg-[#366e9d]" : ""
+            } hover:bg-[#85b7dd] hover:dark:bg-[#366e9d]`}
             onClick={() => handleLanguage("python")}
           >
             Python
           </button>
         </div>
         {languageSelected === null ? (
-          <p className="col-span-10 row-span-1 flex justify-center items-center gap-4 mx-3 mb-2 rounded-lg bg-black text-center italic text-sm">
+          <p className="col-span-10 row-span-1 flex justify-center items-center gap-4 mx-3 mb-2 rounded-lg bg-[#ffffff] dark:bg-black text-center italic text-sm">
             Select a language!
           </p>
         ) : (
-          <div className="col-span-10 row-span-1 flex justify-between items-center gap-4 mx-3 mb-2 mt-1 rounded-lg bg-black">
+          <div className="col-span-10 row-span-1 flex justify-between items-center gap-4 mx-3 mb-2 mt-1 rounded-lg bg-[#ffffff] dark:bg-black">
             <button className="pl-3" onClick={decrementVideoPosition}>
               <img src={arrow_left} alt="arrow_left" />
             </button>
