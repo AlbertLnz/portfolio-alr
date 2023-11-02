@@ -3,12 +3,20 @@ import ChallengeComponent_child from "./ChallengeComponent_child";
 
 const ChallengesComponent = () => {
   const [childName, setChildName] = useState(""); // Estado para almacenar el nombre del hijo
+  const [githubRepository, setGitubRepository] = useState(""); // Estado para almacenar el github repository del hijo
+  const [challengeUrl, setChallengeUrl] = useState(""); // Estado para almacenar el challenge url del hijo
   const [languageSelected, setLanguageSelected] = useState(null);
   const [videoSelected, setvideoSelected] = useState(0);
   const videos_max = 2;
 
   const handleChildNameChange = (name) => {
     setChildName(name);
+  };
+  const handleGithubRepository = (name) => {
+    setGitubRepository(name);
+  };
+  const handleChallengeUrl = (name) => {
+    setChallengeUrl(name);
   };
 
   const incrementVideoPosition = () => {
@@ -89,7 +97,7 @@ const ChallengesComponent = () => {
                 <path d="M5 12l14 0" />
                 <path d="M5 12l4 4" />
                 <path d="M5 12l4 -4" />
-              </svg>{" "}
+              </svg>
             </button>
             <p className="text-sm">{childName}</p>
             <button className="pr-3" onClick={incrementVideoPosition}>
@@ -109,20 +117,35 @@ const ChallengesComponent = () => {
                 <path d="M5 12l14 0" />
                 <path d="M15 16l4 -4" />
                 <path d="M15 8l4 4" />
-              </svg>{" "}
+              </svg>
             </button>
           </div>
         )}
-
-        <div className="col-span-10 row-span-4 flex flex-grow mx-3 mb-2 rounded-lg">
-          {languageSelected != null && (
-            <ChallengeComponent_child
-              technology={languageSelected}
-              num_video={videoSelected}
-              onNameChange={handleChildNameChange}
-            />
-          )}
-        </div>
+        {languageSelected != null && (
+          <>
+            <div className="col-span-10 row-span-4 flex flex-grow mx-3 mb-2 rounded-lg">
+              <ChallengeComponent_child
+                technology={languageSelected}
+                num_video={videoSelected}
+                onNameChange={handleChildNameChange}
+                onGithubRepo={handleGithubRepository}
+                onChallengeUrl={handleChallengeUrl}
+              />
+            </div>
+            <div className="col-span-10 flex w-full text-xs items-center justify-between mb-2">
+              <a href={githubRepository} target="_blank">
+                <p className="bg-[#e2ece9] dark:bg-[#404040] hover:inner-border hover:inner-border-[#b73c79] ml-16 px-4 py-0.5 rounded-md">
+                  View Code
+                </p>
+              </a>
+              <a href={challengeUrl} target="_blank">
+                <p className="bg-[#e2ece9] dark:bg-[#404040] hover:inner-border hover:inner-border-[#b73c79] mr-16 px-4 py-0.5 rounded-md">
+                  Challenge
+                </p>
+              </a>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
