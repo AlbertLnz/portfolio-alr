@@ -1,8 +1,5 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import arrow_to_left from "../assets/images/ProjectsComponent/arrow_to_left.svg";
-import arrow_to_right from "../assets/images/ProjectsComponent/arrow_to_right.svg";
-import heart from "../assets/images/ProjectsComponent/heart.svg";
 import projectImages from "../services/ProjectImages";
 import ProjectComponent_child from "./ProjectComponent_child";
 
@@ -36,13 +33,57 @@ const ProjectsComponent = () => {
 
         <div className="flex grow justify-between mx-14 rounded-b-lg items-end mb-2">
           <button onClick={handleDecrementPositionSlider}>
-            <img src={arrow_to_left} alt="arrow_to_left" className="w-8" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="icon icon-tabler icon-tabler-arrow-badge-left-filled w-8 fill-[#626366] dark:fill-white"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M17 6h-6a1 1 0 0 0 -.78 .375l-4 5a1 1 0 0 0 0 1.25l4 5a1 1 0 0 0 .78 .375h6l.112 -.006a1 1 0 0 0 .669 -1.619l-3.501 -4.375l3.5 -4.375a1 1 0 0 0 -.78 -1.625z"
+                stroke-width="0"
+                fill=""
+              />
+            </svg>
           </button>
           <button>
-            <img src={heart} alt="heart" className="w-8" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="icon icon-tabler icon-tabler-heart w-8 fill-[#626366] dark:fill-white stroke-[#626366] dark:stroke-white"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+            </svg>
           </button>
           <button onClick={handleIncrementPositionSlider}>
-            <img src={arrow_to_right} alt="arrow_to_right" className="w-8" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="icon icon-tabler icon-tabler-arrow-badge-right-filled w-8 fill-[#626366] dark:fill-white"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="none"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"
+                stroke-width="0"
+                fill=""
+              />
+            </svg>
           </button>
         </div>
       </div>

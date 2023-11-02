@@ -24,22 +24,34 @@ const SideNav = ({ handleOptionSelected }) => {
 
   return (
     <nav className="w-full h-full flex flex-col gap-1 place-content-center items-center justify-center">
-      <li className="list-none" onClick={() => handleItemClick("tools")}>
+      <li
+        className="list-none text-[#626366] dark:text-white"
+        onClick={() => handleItemClick("tools")}
+      >
         <NavItem selected={selected === 0} id={0} setSelected={setSelected}>
           <FaToolbox />
         </NavItem>
       </li>
-      <li className="list-none" onClick={() => handleItemClick("php")}>
+      <li
+        className="list-none text-[#626366] dark:text-white"
+        onClick={() => handleItemClick("php")}
+      >
         <NavItem selected={selected === 1} id={1} setSelected={setSelected}>
           <SiPhp />
         </NavItem>
       </li>
-      <li className="list-none" onClick={() => handleItemClick("javascript")}>
+      <li
+        className="list-none text-[#626366] dark:text-white"
+        onClick={() => handleItemClick("javascript")}
+      >
         <NavItem selected={selected === 2} id={2} setSelected={setSelected}>
           <SiJavascript />
         </NavItem>
       </li>
-      <li className="list-none" onClick={() => handleItemClick("python")}>
+      <li
+        className="list-none text-[#626366] dark:text-white"
+        onClick={() => handleItemClick("python")}
+      >
         <NavItem selected={selected === 3} id={3} setSelected={setSelected}>
           <SiPython />
         </NavItem>
@@ -60,7 +72,7 @@ const NavItem = ({ children, selected, id, setSelected }) => {
       <AnimatePresence>
         {selected && (
           <motion.span
-            className="absolute inset-0 rounded-2xl bg-indigo-600 z-0"
+            className="absolute inset-0 rounded-2xl bg-indigo-200 dark:bg-indigo-600 z-0"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             exit={{ scale: 0 }}

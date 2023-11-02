@@ -1,6 +1,4 @@
 import { useState } from "react";
-import arrow_left from "../assets/images/ChallengeComponent/arrow_left.svg";
-import arrow_right from "../assets/images/ChallengeComponent/arrow_right.svg";
 import ChallengeComponent_child from "./ChallengeComponent_child";
 
 const ChallengesComponent = () => {
@@ -75,11 +73,43 @@ const ChallengesComponent = () => {
         ) : (
           <div className="col-span-10 row-span-1 flex justify-between items-center gap-4 mx-3 mb-2 mt-1 rounded-lg bg-[#ffffff] dark:bg-black">
             <button className="pl-3" onClick={decrementVideoPosition}>
-              <img src={arrow_left} alt="arrow_left" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon icon-tabler icon-tabler-arrow-narrow-left stroke-[#626366] dark:stroke-white"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke=""
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 12l14 0" />
+                <path d="M5 12l4 4" />
+                <path d="M5 12l4 -4" />
+              </svg>{" "}
             </button>
             <p className="text-sm">{childName}</p>
             <button className="pr-3" onClick={incrementVideoPosition}>
-              <img src={arrow_right} alt="arrow_right" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon icon-tabler icon-tabler-arrow-narrow-right stroke-[#626366] dark:stroke-white"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="#ffffff"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 12l14 0" />
+                <path d="M15 16l4 -4" />
+                <path d="M15 8l4 4" />
+              </svg>{" "}
             </button>
           </div>
         )}
