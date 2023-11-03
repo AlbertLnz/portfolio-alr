@@ -21,7 +21,7 @@ const CoursesComponent = () => {
   return (
     <div className="h-full flex flex-col">
       <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
-        Courses
+        {t("coursesSection.title")}
       </h3>
       <div className="flex-grow rounded-lg bg-[#f6f7f9] dark:bg-[#171719]">
         <div className="flex justify-between items-center my-4">
@@ -39,13 +39,13 @@ const CoursesComponent = () => {
             href={t(`coursesSection.courses.${selectorCourse}.certificate`)}
             className="text-black text-xs rounded-full px-3 py.0.5 bg-[#d1d3d9] hover:bg-white"
           >
-            Certificate
+            {t("coursesSection.buttons.certificate")}
           </a>
           <a
             href={t(`coursesSection.courses.${selectorCourse}.link_course`)}
             className="text-black text-xs rounded-full px-3 py.0.5 bg-[#d1d3d9] hover:bg-white"
           >
-            Course
+            {t("coursesSection.buttons.course_link")}
           </a>
           <p className="text-black text-xs rounded-md px-3 py.0.5 bg-white">
             {t(`coursesSection.courses.${selectorCourse}.date`)}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const php = ["1", "2"];
 const laravel = ["Laravel Passport", "JWT Token"];
@@ -13,6 +14,7 @@ const python = ["13", "14"];
 const fastapi = ["15", "16"];
 
 const ToolsComponentLibrariesModal = ({ name, openModal }) => {
+  const [t] = useTranslation("global");
   const [showInfoFrom, setShowInfoFrom] = useState([]);
 
   useEffect(() => {
@@ -34,8 +36,8 @@ const ToolsComponentLibrariesModal = ({ name, openModal }) => {
       <dialog id="my_modal" className="modal">
         <div className="modal-box text-center bg-[#ffffff] dark:bg-[#1d232a]">
           <h3 className="font-bold text-xl pb-4">
-            Documentation of <span className="underline">{name}</span> I used
-            frequently
+            {t("toolsSection.documentation")}
+            <span className="underline">{name}</span> {t("toolsSection.used")}
           </h3>
           {showInfoFrom.map((item) => (
             <p key={item} className="text-dark py-1">

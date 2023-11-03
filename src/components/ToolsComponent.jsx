@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import toolsImages from "../services/ToolsImages";
 import toolsTechImages from "../services/ToolsTechImages";
 import ToolTechComponent_child from "./ToolTechComponent_child";
@@ -6,6 +7,7 @@ import ToolsCardComponent_child from "./ToolsCardComponent_child";
 import IconSideNav from "./ToolsNavBarComponent";
 
 const ToolsComponent = () => {
+  const [t] = useTranslation("global");
   const [selectedValue, setSelectedValue] = useState("tools");
 
   const handleSelectedChange = (selected) => {
@@ -15,7 +17,7 @@ const ToolsComponent = () => {
   return (
     <div className="h-full flex flex-col">
       <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
-        Tools
+        {t("toolsSection.title")}
       </h3>
       <div className="grid grid-cols-10 rounded-lg bg-[#f6f7f9] dark:bg-[#171719] h-full">
         <div className="col-span-7 mx-3 my-2 rounded-lg h-fit">

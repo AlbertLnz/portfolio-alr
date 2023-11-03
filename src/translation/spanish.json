@@ -1,5 +1,212 @@
 {
-  "projectName": {
-    "title": "Proyectos"
+  "opentoworkSection": {
+    "span1": "ABIERTO",
+    "span2": "AL",
+    "span3": "TRABAJO"
+  },
+  "projectsSection": {
+    "title": "Proyectos",
+    "projects": {
+      "0": {
+        "title": "API Dice",
+        "description": "El juego consiste en el lanzamiento de 2 dados; si el usuario saca un 7 gana sino, pierde. Para jugar te has de registrar previamente ya sea como usuario anónimo o mediante un usuario y mail con la ventaja de poder consultar tus resultados (tiradas previas y promedio). Hay un ranking del mejor jugador, del peor y del general restringido por el usuario administrador. Todo esto siguiendo el patrón de diseño MVC.",
+        "github": "https://github.com/AlbertLnz/dice-API",
+        "deploy": "www.facebook.es"
+      },
+      "1": {
+        "title": "Football Managment App",
+        "description": "La aplicación consiste en la gestión de una liga de fútbol, pudiendo visualizar y crear equipos, jugadores y partidos. Todos los datos están relacionados entre si mediante relaciones entre las diferentes tablas configuradas en una base de datos SQL. Cualquier usuario puede consultar los datos de la aplicación mediante queries pero es el administrador el único usuario capaz de crearlas.",
+        "github": "https://github.com/AlbertLnz/Football-managment-app",
+        "deploy": "www.youtube.es"
+      },
+      "2": {
+        "title": "CRUD Redux Toolkit",
+        "description": "Aplicación de tareas con React y Redux que permite al usuario visualizar, crear, editar y eliminar tareas ayudándolo a mantenerse organizado y productivo en sus actividades diarias.",
+        "github": "https://github.com/AlbertLnz/CRUD-Redux-Toolkit",
+        "deploy": "www.youtube.es"
+      },
+      "3": {
+        "title": "ITA Landing",
+        "description": "Crud",
+        "github": "https://github.com/IT-Academy-BCN/ita-landing-frontend",
+        "deploy": "https://it-academy-landing.netlify.app/"
+      },
+      "4": {
+        "title": "ReserveEat",
+        "description": "Crud",
+        "github": "https://github.com/No-Country/nc_c14-40-m-php-vue",
+        "deploy": "www.youtube.es"
+      },
+      "5": {
+        "title": "ITA Profiles",
+        "description": "Crud",
+        "github": "https://github.com/IT-Academy-BCN/ita-profiles-frontend",
+        "deploy": "www.youtube.es"
+      }
+    }
+  },
+
+  "challengesSection": {
+    "title": "¡Desafiándome!",
+    "subtitle": "Selecciona un lenguaje!",
+    "challenges": {
+      "0": {
+        "0": "Challenge PHP nº1",
+        "1": "Challenge PHP nº2"
+      },
+      "1": {
+        "0": "Challenge JS nº3",
+        "1": "Challenge JS nº4"
+      },
+      "2": {
+        "0": "Challenge PYTHON nº5",
+        "1": "Challenge PYTHON nº6"
+      }
+    },
+    "buttons": {
+      "code": "Ver código",
+      "challenge": "Desafío"
+    }
+  },
+
+  "toolsSection": {
+    "title": "Herramientas",
+    "documentation": "Documentación de ",
+    "used": " que frecuentemente uso"
+  },
+
+  "coursesSection": {
+    "title": "Cursos",
+    "buttons": {
+      "certificate": "Certificado",
+      "course_link": "Curso"
+    },
+    "courses": {
+      "1": {
+        "title": "El desafío internacional de aplicaciones espaciales de la NASA",
+        "type": "Hackathon",
+        "certificate": "https://www.linkedin.com/posts/aar%C3%B3n-murillo-lort-b039b01a1_last-weekend-we-had-the-honour-to-be-a-part-activity-7118245275999059968-NN-d?utm_source=share&utm_medium=member_desktop",
+        "link_course": "https://www.spaceappschallenge.org/2023/locations/barcelona/",
+        "date": "10/2023"
+      },
+      "2": {
+        "title": "Figma - Haz tus mockups",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1UOPOMw8P5qk_GJcKEMXLRAd2f2Aje4VQ/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1266485",
+        "date": "07/2023"
+      },
+      "3": {
+        "title": "Hackathon Tech4Good",
+        "type": "Hackathon",
+        "certificate": "https://drive.google.com/file/d/142Fc75X8MJWt5kjyCtEa2QVKdiHv5Am3/view?usp=sharing",
+        "link_course": "http://hackathon.techlabs.org/details.html",
+        "date": "06/2023"
+      },
+      "4": {
+        "title": "Aprende a programar una API en PHP y MySQL",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1R1ZGuyOHBAR3VTVz4ZQod-dfnMgjzF7H/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1274454",
+        "date": "05/2023"
+      },
+      "5": {
+        "title": "Svelte, el gran desconocido",
+        "type": "Conferencia",
+        "certificate": "https://drive.google.com/file/d/1e4ea_2dqzNt5qigifRS3CbR_vrHwoYjB/view?usp=sharing",
+        "link_course": "",
+        "date": "04/2023"
+      },
+      "6": {
+        "title": "Crecimiento profesional en empresas multinacionales",
+        "type": "Conferencia",
+        "certificate": "https://drive.google.com/file/d/1FQOFxE1v3Zof6hN7Gp3SgGNbWbW6_0d-/view?usp=sharing",
+        "link_course": "",
+        "date": "04/2023"
+      },
+      "7": {
+        "title": "Introducción al lenguaje Javascript",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1RtrGSYVGaGNvHrlyNkEU2HWNKtxDwnqE/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267258",
+        "date": "04/2023"
+      },
+      "8": {
+        "title": "Crea una web con PHP, MySQL y Apache (LAMP)",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1HcDDo0-NYkKNbgqmPLnjqkuuONTZD60U/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267312",
+        "date": "03/2023"
+      },
+      "9": {
+        "title": "Gestiona bases de datos con MySQL",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1aYdkTz4OlqY_69DEb0XRYbZFQDX_Y2oi/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267314",
+        "date": "03/2023"
+      },
+      "10": {
+        "title": "Inteligencia artificial y datos en pleno boom de ChatGPT",
+        "type": "Conferencia",
+        "certificate": "https://drive.google.com/file/d/1Dx5HD6CbsAC77N09TOrhEVpCqfQb1_Ln/view?usp=sharing",
+        "link_course": "https://eurecat.org/el-boom-de-la-intelligencia-artificial-molt-mes-que-el-chatgpt/",
+        "date": "03/2023"
+      },
+      "11": {
+        "title": "Aprende Low Code - CSS",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1wrSlkoPDYFSJJajmD4nY6Efm4BIVab44/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1266830",
+        "date": "10/2022"
+      },
+      "12": {
+        "title": "Introducción a la programación C++",
+        "type": "Learning",
+        "certificate": "https://drive.google.com/file/d/1sSAXrmLGsNlCSPXOHmpOkH5-Pv5qRkid/view?usp=sharing",
+        "link_course": "",
+        "date": "02/2019"
+      }
+    }
+  },
+  "studiesSection": {
+    "title": "Estudios",
+    "subtitles": {
+      "study": "Estudio:",
+      "academy": "Academia:",
+      "period": "Periodo:"
+    },
+    "studies": {
+      "1": {
+        "title": "FullStack PHP Bootcamp",
+        "academy": "IT Academy",
+        "period": "2022 - 2023"
+      },
+      "2": {
+        "title": "Grado en Economicas",
+        "academy": "Universidad de Barcelona",
+        "period": "2020 - 2023"
+      },
+      "3": {
+        "title": "Transporte y Logística",
+        "academy": "CE Prat",
+        "period": "2020 - 2021"
+      },
+      "4": {
+        "title": "Comercio Internacional",
+        "academy": "CE Prat",
+        "period": "2018 - 2020"
+      },
+      "5": {
+        "title": "Bachillerato Social",
+        "academy": "La Salle",
+        "period": "2016 - 2018"
+      }
+    }
+  },
+  "languagesSection": {
+    "title": "Idiomas"
+  },
+  "portfolioSection": {
+    "title": "Diseñado y creado por Albert Lanza con"
   }
 }

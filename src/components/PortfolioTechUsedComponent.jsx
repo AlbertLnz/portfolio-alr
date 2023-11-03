@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
 import figma from "../assets/images/PortfolioComponent/figma.svg";
 import ipod from "../assets/images/PortfolioComponent/ipod.svg";
 import ipod_back from "../assets/images/PortfolioComponent/ipod_back.svg";
 import react from "../assets/images/PortfolioComponent/react.svg";
 
 const PortfolioTechUsedComponent = () => {
+  const [t] = useTranslation("global");
   return (
     <div className="h-full flex flex-col">
       <div className="flex-grow rounded-lg bg-[#f6f7f9] dark:bg-[#171719] flex items-center justify-center">
@@ -39,7 +41,7 @@ const PortfolioTechUsedComponent = () => {
               <img src={ipod_back} alt="" className="w-36" />
               <div className="absolute flex flex-col place-items-center top-1/2 px-4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-full h-full mt-4">
                 <p className="text-[10px] text-center font-bold leading-4 mb-4">
-                  Designed & created by Albert Lanza with
+                  {t("portfolioSection.title")}
                 </p>
                 <div className="flex gap-4">
                   <div className="tooltip tooltip-bottom" data-tip="Figma">

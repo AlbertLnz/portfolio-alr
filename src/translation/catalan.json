@@ -1,5 +1,212 @@
 {
-  "projectName": {
-    "title": "Projectes"
+  "opentoworkSection": {
+    "span1": "OBERT",
+    "span2": "AL",
+    "span3": "TREBALL"
+  },
+  "projectsSection": {
+    "title": "Projectes",
+    "projects": {
+      "0": {
+        "title": "API Dice",
+        "description": "El joc consisteix en el llançament de 2 daus; si l'usuari treu un 7 guanya sinó, perd. Per tal de jugar t'has de registrar prèviament ja sigui com usuari anònim o mitjançant un usuari i mail amb l'avantatge de poder consultar els teus resultats (tirades prèvies i promig). Hi ha un rànquing del millor jugador, del pitjor i del general restringit per l'usuari administrador. Tot això seguint el patró de disseny MVC.",
+        "github": "https://github.com/AlbertLnz/dice-API",
+        "deploy": "www.facebook.es"
+      },
+      "1": {
+        "title": "Football Managment App",
+        "description": "L'aplicació consisteix en la gestió d'una lliga de futbol, podent visualitzar i crear equips, jugadors i partits. Totes les dades estan relacionades entre si mitjançant relacions entre les diferents taules configurades en un base de dades SQL. Qualsevol usuari pot consultar les dades de l'aplicació obtingudes mitjançant queries però és l'administrador l'únic usuari capaç de crear-les.",
+        "github": "https://github.com/AlbertLnz/Football-managment-app",
+        "deploy": "www.youtube.es"
+      },
+      "2": {
+        "title": "CRUD Redux Toolkit",
+        "description": "Aplicació de tasques amb React i Redux que permet a l'usuari visualitzar, crear, editar i eliminar tasques ajudant-lo a mantenir-se organizat i productiu en les seves activitats diàries.",
+        "github": "https://github.com/AlbertLnz/CRUD-Redux-Toolkit",
+        "deploy": "www.youtube.es"
+      },
+      "3": {
+        "title": "ITA Landing",
+        "description": "Pàgina d'informació sobre l'academia de programació ITAcademy on mijtançant una connexió amb el Back-End, mostra informació de l'academia i participants. També té una part de gestió de la pròpia pàgina una vegada l'usuari inicia sessió (backoffice).",
+        "github": "https://github.com/IT-Academy-BCN/ita-landing-frontend",
+        "deploy": "https://it-academy-landing.netlify.app/"
+      },
+      "4": {
+        "title": "ReserveEat",
+        "description": "Web de gestió de reserves de diversos restaurants, l'app permet crear varius usuaris on cada un pot manejar diversos restaurants, i on posteriorment els usuaris clients son capaços de crear reserves en dia, torn i assignar-li una taula. L'usuari també pot realitzar ressenyes del restaurant.",
+        "github": "https://github.com/No-Country/nc_c14-40-m-php-vue",
+        "deploy": "www.youtube.es"
+      },
+      "5": {
+        "title": "ITA Profiles",
+        "description": "Pàgina on mostra els col·laboradors que han participat en diferents projectes de l'ITAcademy i que té com objectiu informar als reclutadors els diferents perfils dels participants.",
+        "github": "https://github.com/IT-Academy-BCN/ita-profiles-frontend",
+        "deploy": "www.youtube.es"
+      }
+    }
+  },
+
+  "challengesSection": {
+    "title": "Desafian-me!",
+    "subtitle": "Selecciona un llenguatge!",
+    "challenges": {
+      "0": {
+        "0": "Challenge PHP nº1",
+        "1": "Challenge PHP nº2"
+      },
+      "1": {
+        "0": "Challenge JS nº3",
+        "1": "Challenge JS nº4"
+      },
+      "2": {
+        "0": "Challenge PYTHON nº5",
+        "1": "Challenge PYTHON nº6"
+      }
+    },
+    "buttons": {
+      "code": "Veure codi",
+      "challenge": "Repte"
+    }
+  },
+
+  "toolsSection": {
+    "title": "Eines",
+    "documentation": "Documentació de ",
+    "used": " que freqüentment utilizo"
+  },
+
+  "coursesSection": {
+    "title": "Cursos",
+    "buttons": {
+      "certificate": "Certificat",
+      "course_link": "Curs"
+    },
+    "courses": {
+      "1": {
+        "title": "El desafiament internacional d'aplicacions espacials de la NASA",
+        "type": "Hackathon",
+        "certificate": "https://www.linkedin.com/posts/aar%C3%B3n-murillo-lort-b039b01a1_last-weekend-we-had-the-honour-to-be-a-part-activity-7118245275999059968-NN-d?utm_source=share&utm_medium=member_desktop",
+        "link_course": "https://www.spaceappschallenge.org/2023/locations/barcelona/",
+        "date": "10/2023"
+      },
+      "2": {
+        "title": "Figma - Fes els teus mockups",
+        "type": "Aprenentatge",
+        "certificate": "https://drive.google.com/file/d/1UOPOMw8P5qk_GJcKEMXLRAd2f2Aje4VQ/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1266485",
+        "date": "07/2023"
+      },
+      "3": {
+        "title": "Hackathon Tech4Good",
+        "type": "Hackathon",
+        "certificate": "https://drive.google.com/file/d/142Fc75X8MJWt5kjyCtEa2QVKdiHv5Am3/view?usp=sharing",
+        "link_course": "http://hackathon.techlabs.org/details.html",
+        "date": "06/2023"
+      },
+      "4": {
+        "title": "Aprèn a programar una API en PHP i MySQL",
+        "type": "Aprenentatge",
+        "certificate": "https://drive.google.com/file/d/1R1ZGuyOHBAR3VTVz4ZQod-dfnMgjzF7H/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1274454",
+        "date": "05/2023"
+      },
+      "5": {
+        "title": "Svelte, el gran desconegut",
+        "type": "Xerrada",
+        "certificate": "https://drive.google.com/file/d/1e4ea_2dqzNt5qigifRS3CbR_vrHwoYjB/view?usp=sharing",
+        "link_course": "",
+        "date": "04/2023"
+      },
+      "6": {
+        "title": "Creixement professional en empreses multinacionals",
+        "type": "Xerrada",
+        "certificate": "https://drive.google.com/file/d/1FQOFxE1v3Zof6hN7Gp3SgGNbWbW6_0d-/view?usp=sharing",
+        "link_course": "",
+        "date": "04/2023"
+      },
+      "7": {
+        "title": "Introducció al llenguatge Javascript",
+        "type": "Aprenentatge",
+        "certificate": "https://drive.google.com/file/d/1RtrGSYVGaGNvHrlyNkEU2HWNKtxDwnqE/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267258",
+        "date": "04/2023"
+      },
+      "8": {
+        "title": "Crea una web amb PHP, MySQL y Apache (LAMP)",
+        "type": "Aprenentatge",
+        "certificate": "https://drive.google.com/file/d/1HcDDo0-NYkKNbgqmPLnjqkuuONTZD60U/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267312",
+        "date": "03/2023"
+      },
+      "9": {
+        "title": "Gestiona bases de dades amb MySQL",
+        "type": "Aprenentatge",
+        "certificate": "https://drive.google.com/file/d/1aYdkTz4OlqY_69DEb0XRYbZFQDX_Y2oi/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1267314",
+        "date": "03/2023"
+      },
+      "10": {
+        "title": "Intel·ligència artificial i dades en ple boom de ChatGPT",
+        "type": "Xerrada",
+        "certificate": "https://drive.google.com/file/d/1Dx5HD6CbsAC77N09TOrhEVpCqfQb1_Ln/view?usp=sharing",
+        "link_course": "https://eurecat.org/el-boom-de-la-intelligencia-artificial-molt-mes-que-el-chatgpt/",
+        "date": "03/2023"
+      },
+      "11": {
+        "title": "Aprèn Low Code - CSS",
+        "type": "Aprenentatge",
+        "certificate": "https://drive.google.com/file/d/1wrSlkoPDYFSJJajmD4nY6Efm4BIVab44/view?usp=sharing",
+        "link_course": "https://cibernarium.barcelonactiva.cat/web/guest/ficha-actividad?activityId=1266830",
+        "date": "10/2022"
+      },
+      "12": {
+        "title": "Introducció a la programació C++",
+        "type": "Aprenentatge",
+        "certificate": "https://drive.google.com/file/d/1sSAXrmLGsNlCSPXOHmpOkH5-Pv5qRkid/view?usp=sharing",
+        "link_course": "",
+        "date": "02/2019"
+      }
+    }
+  },
+  "studiesSection": {
+    "title": "Estudis",
+    "subtitles": {
+      "study": "Estudi:",
+      "academy": "Academia:",
+      "period": "Periode:"
+    },
+    "studies": {
+      "1": {
+        "title": "FullStack PHP Bootcamp",
+        "academy": "IT Academy",
+        "period": "2022 - 2023"
+      },
+      "2": {
+        "title": "Grau en Economiques",
+        "academy": "Universitat de Barcelona",
+        "period": "2020 - 2023"
+      },
+      "3": {
+        "title": "Transport i Logística",
+        "academy": "CE Prat",
+        "period": "2020 - 2021"
+      },
+      "4": {
+        "title": "Comerç Internacional",
+        "academy": "CE Prat",
+        "period": "2018 - 2020"
+      },
+      "5": {
+        "title": "Batxillerat Social",
+        "academy": "La Salle",
+        "period": "2016 - 2018"
+      }
+    }
+  },
+  "languagesSection": {
+    "title": "Idiomes"
+  },
+  "portfolioSection": {
+    "title": "Disenyat i creat per Albert Lanza amb"
   }
 }

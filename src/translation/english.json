@@ -21,7 +21,7 @@
       },
       "2": {
         "title": "CRUD Redux Toolkit",
-        "description": "Crud",
+        "description": "A task application with React and Redux that allows the user to view, create, edit and delete tasks, helping them stay organized and productive in their daily activities.",
         "github": "https://github.com/AlbertLnz/CRUD-Redux-Toolkit",
         "deploy": "www.youtube.es"
       },
@@ -29,10 +29,10 @@
         "title": "ITA Landing",
         "description": "Crud",
         "github": "https://github.com/IT-Academy-BCN/ita-landing-frontend",
-        "deploy": "www.youtube.es"
+        "deploy": "https://it-academy-landing.netlify.app/"
       },
       "4": {
-        "title": "TableTrek",
+        "title": "ReserveEat",
         "description": "Crud",
         "github": "https://github.com/No-Country/nc_c14-40-m-php-vue",
         "deploy": "www.youtube.es"
@@ -40,14 +40,15 @@
       "5": {
         "title": "ITA Profiles",
         "description": "Crud",
-        "github": "https://github.com/IT-Academy-BCN/ita-landing-frontend",
+        "github": "https://github.com/IT-Academy-BCN/ita-profiles-frontend",
         "deploy": "www.youtube.es"
       }
     }
   },
 
   "challengesSection": {
-    "selectLanguageTitle": "Select a language!",
+    "title": "Challenging me!",
+    "subtitle": "Select a language!",
     "challenges": {
       "0": {
         "0": "Challenge PHP nº1",
@@ -63,21 +64,23 @@
       }
     },
     "buttons": {
-      "code": "View Code",
+      "code": "View code",
       "challenge": "Challenge"
     }
   },
 
-  "toolsComponent": {
-    "docs": {
-      "PHP": {
-        "documentaion": "Documentation of ",
-        "used": " I used frequently"
-      }
-    }
+  "toolsSection": {
+    "title": "Tools",
+    "documentation": "Documentation of ",
+    "used": " I used frequently"
   },
 
   "coursesSection": {
+    "title": "Courses",
+    "buttons": {
+      "certificate": "Certfificate",
+      "course_link": "Course"
+    },
     "courses": {
       "1": {
         "title": "The NASA International Space Apps Challenge",
@@ -166,6 +169,12 @@
     }
   },
   "studiesSection": {
+    "title": "Studies",
+    "subtitles": {
+      "study": "Study:",
+      "academy": "Academy:",
+      "period": "Period:"
+    },
     "studies": {
       "1": {
         "title": "FullStack PHP Bootcamp",
@@ -193,5 +202,11 @@
         "period": "2016 - 2018"
       }
     }
+  },
+  "languagesSection": {
+    "title": "Languages"
+  },
+  "portfolioSection": {
+    "title": "Designed & created by Albert Lanza with"
   }
 }

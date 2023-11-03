@@ -9,7 +9,7 @@ const StudiesComponent = () => {
   return (
     <div className="h-full flex flex-col">
       <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
-        Studies
+        {t("studiesSection.title")}
       </h3>
       <div className="flex-grow grid grid-cols-10 rounded-lg p-3 bg-[#f6f7f9] dark:bg-[#171719]">
         <div className="col-span-9 carousel carousel-vertical mx-3">
@@ -26,15 +26,21 @@ const StudiesComponent = () => {
                 visibleStudy === 1 ? "block h-full" : "hidden"
               }`}
             >
-              <li className="text-xs font-extrabold mt-2">Study:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.study")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.1.title")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Academy:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.academy")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.1.academy")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Period:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.period")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.1.period")}
               </li>
@@ -53,15 +59,21 @@ const StudiesComponent = () => {
                 visibleStudy === 2 ? "block h-full" : "hidden"
               }`}
             >
-              <li className="text-xs font-extrabold mt-2">Study:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.study")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.2.title")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Academy:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.academy")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.2.academy")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Period:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.period")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.2.period")}
               </li>
@@ -80,15 +92,21 @@ const StudiesComponent = () => {
                 visibleStudy === 3 ? "block h-full" : "hidden"
               }`}
             >
-              <li className="text-xs font-extrabold mt-2">Study:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.study")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.3.title")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Academy:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.academy")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.3.academy")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Period:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.period")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.3.period")}
               </li>
@@ -107,15 +125,21 @@ const StudiesComponent = () => {
                 visibleStudy === 4 ? "block h-full" : "hidden"
               }`}
             >
-              <li className="text-xs font-extrabold mt-2">Study:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.study")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.4.title")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Academy:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.academy")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.4.academy")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Period:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.period")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.4.period")}
               </li>
@@ -134,15 +158,21 @@ const StudiesComponent = () => {
                 visibleStudy === 5 ? "block h-full" : "hidden"
               }`}
             >
-              <li className="text-xs font-extrabold mt-2">Study:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.study")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.5.title")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Academy:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.academy")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.5.academy")}
               </li>
-              <li className="text-xs font-extrabold mt-2">Period:</li>
+              <li className="text-xs font-extrabold mt-2">
+                {t("studiesSection.subtitles.period")}
+              </li>
               <li className="ml-2 text-sm">
                 {t("studiesSection.studies.5.period")}
               </li>

@@ -47,7 +47,7 @@ const ChallengesComponent = () => {
   return (
     <div className="h-full flex flex-col">
       <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
-        Challenging me!
+        {t("challengesSection.title")}
       </h3>
       <div className="flex-grow grid grid-cols-10 grid-rows-6 rounded-lg bg-[#f6f7f9] dark:bg-[#171719]">
         <div className="col-span-10 row-span-1 rounded-t-lg flex items-center justify-center">
@@ -78,7 +78,7 @@ const ChallengesComponent = () => {
         </div>
         {languageSelected === null ? (
           <p className="col-span-10 row-span-1 flex justify-center items-center gap-4 mx-3 mb-2 rounded-lg bg-[#ffffff] dark:bg-black text-center italic text-sm">
-            Select a language!
+            {t("challengesSection.subtitle")}
           </p>
         ) : (
           <div className="col-span-10 row-span-1 flex justify-between items-center gap-4 mx-3 mb-2 mt-1 rounded-lg bg-[#ffffff] dark:bg-black">
