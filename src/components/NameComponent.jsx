@@ -73,7 +73,7 @@ const NameComponent = () => {
             href="https://github.com/AlbertLnz"
             target="_blank"
             rel="noreferrer"
-            className="flex mx-4 rounded-2xl items-center place-content-center fill-[#626366] hover:fill-white dark:fill-white bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#f6cd63] hover:dark:bg-[#f6cd63] hover:inner-border-2 hover:inner-border-[#f1b739]"
+            className="flex mx-4 rounded-2xl items-center place-content-center fill-[#626366] hover:fill-white dark:fill-white bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#272829] hover:dark:bg-[#272829] hover:inner-border-2 hover:inner-border-[#454545]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -99,9 +99,30 @@ const NameComponent = () => {
             </svg>
           </a>
 
-          <button className="bg-[#d1d5db] dark:bg-[#0f0f11] mx-4 rounded-2xl">
-            6
-          </button>
+          <a
+            href="https://stackoverflow.com/users/22852088/albertlnz"
+            target="_blank"
+            rel="noreferrer"
+            className="flex mx-4 rounded-2xl items-center place-content-center stroke-[#626366] hover:stoke-white dark:stroke-white bg-[#d1d5db] dark:bg-[#0f0f11] hover:bg-[#f6cd63] hover:dark:bg-[#f6cd63] hover:inner-border-2 hover:inner-border-[#f1b739]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="icon icon-tabler icon-tabler-brand-stackoverflow w-7 rounded-md"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke=""
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 17v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-1" />
+              <path d="M8 16h8" />
+              <path d="M8.322 12.582l7.956 .836" />
+              <path d="M8.787 9.168l7.826 1.664" />
+              <path d="M10.096 5.764l7.608 2.472" />
+            </svg>
+          </a>
         </div>
       </div>
     </div>
