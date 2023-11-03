@@ -47,7 +47,7 @@ const projectContributors = [
     },
   ],
   [
-    // TABLE TREK
+    // RESERVE EAT
     {
       nombre: "Albert Lanza",
       tech: "BackEnd",

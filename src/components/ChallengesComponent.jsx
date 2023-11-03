@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import ChallengeComponent_child from "./ChallengeComponent_child";
 
 const ChallengesComponent = () => {
+  const [t] = useTranslation("global");
   const [childName, setChildName] = useState(""); // Estado para almacenar el nombre del hijo
   const [githubRepository, setGitubRepository] = useState(""); // Estado para almacenar el github repository del hijo
   const [challengeUrl, setChallengeUrl] = useState(""); // Estado para almacenar el challenge url del hijo
@@ -135,12 +137,12 @@ const ChallengesComponent = () => {
             <div className="col-span-10 flex w-full text-xs items-center justify-between mb-2">
               <a href={githubRepository} target="_blank">
                 <p className="bg-[#e2ece9] dark:bg-[#404040] hover:inner-border hover:inner-border-[#b73c79] ml-16 px-4 py-0.5 rounded-md">
-                  View Code
+                  {t("challengesSection.buttons.code")}
                 </p>
               </a>
               <a href={challengeUrl} target="_blank">
                 <p className="bg-[#e2ece9] dark:bg-[#404040] hover:inner-border hover:inner-border-[#b73c79] mr-16 px-4 py-0.5 rounded-md">
-                  Challenge
+                  {t("challengesSection.buttons.challenge")}
                 </p>
               </a>
             </div>

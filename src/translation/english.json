@@ -1,4 +1,9 @@
 {
+  "opentoworkSection": {
+    "span1": "OPEN",
+    "span2": "TO",
+    "span3": "WORK"
+  },
   "projectsSection": {
     "title": "Projects",
     "projects": {
@@ -40,6 +45,38 @@
       }
     }
   },
+
+  "challengesSection": {
+    "selectLanguageTitle": "Select a language!",
+    "challenges": {
+      "0": {
+        "0": "Challenge PHP nº1",
+        "1": "Challenge PHP nº2"
+      },
+      "1": {
+        "0": "Challenge JS nº3",
+        "1": "Challenge JS nº4"
+      },
+      "2": {
+        "0": "Challenge PYTHON nº5",
+        "1": "Challenge PYTHON nº6"
+      }
+    },
+    "buttons": {
+      "code": "View Code",
+      "challenge": "Challenge"
+    }
+  },
+
+  "toolsComponent": {
+    "docs": {
+      "PHP": {
+        "documentaion": "Documentation of ",
+        "used": " I used frequently"
+      }
+    }
+  },
+
   "coursesSection": {
     "courses": {
       "1": {

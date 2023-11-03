@@ -1,6 +1,7 @@
 import React from "react";
 import { DefaultPlayer as Video } from "react-html5video";
 import "react-html5video/dist/styles.css";
+import { useTranslation } from "react-i18next";
 import challengesVideos from "../services/ChallengesVideos";
 
 const ChallengeComponent_child = ({
@@ -10,9 +11,10 @@ const ChallengeComponent_child = ({
   onGithubRepo,
   onChallengeUrl,
 }) => {
+  const [t] = useTranslation("global");
   const video = challengesVideos[technology][num_video].video;
   const poster = challengesVideos[technology][num_video].poster;
-  onNameChange(challengesVideos[technology][num_video].name); // send name info to parent
+  onNameChange(t(`challengesSection.challenges.${technology}.${num_video}`)); // send name info to parent
   onGithubRepo(challengesVideos[technology][num_video].github_repository); // send github repository info to parent
   onChallengeUrl(challengesVideos[technology][num_video].challenge_url); // send challenge url info to parent
 
