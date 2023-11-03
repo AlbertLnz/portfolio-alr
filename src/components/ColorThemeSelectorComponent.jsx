@@ -7,7 +7,6 @@ const ColorThemeSelectorComponent = () => {
 
   const handleSwapTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
-    console.log(theme);
   };
 
   useEffect(() => {

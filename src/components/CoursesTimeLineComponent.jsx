@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const CoursesTimeLineComponent = ({ position, color }) => {
+const CoursesTimeLineComponent = ({ position, setColor }) => {
   const [currentStep, setCurrentStep] = useState(1);
 
   const circles = [
@@ -19,10 +19,9 @@ const CoursesTimeLineComponent = ({ position, color }) => {
   ];
 
   useEffect(() => {
-    console.log(position);
     setCurrentStep(position);
+    setColor(circles[position - 1].color);
   }, [position]);
-  color(circles[currentStep - 1].color);
 
   return (
     <div className="container flex flex-col items-center justify-center mx-2 w-full h-6">

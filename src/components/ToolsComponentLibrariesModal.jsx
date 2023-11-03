@@ -29,7 +29,6 @@ const ToolsComponentLibrariesModal = ({ name, openModal }) => {
     name === "FastAPI" ? setShowInfoFrom(fastapi) : "";
   }, []);
 
-  console.log(showInfoFrom);
   return (
     <div>
       <dialog id="my_modal" className="modal">

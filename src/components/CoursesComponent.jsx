@@ -18,10 +18,6 @@ const CoursesComponent = () => {
     selectorCourse > 1 ? setSelectorCourse(selectorCourse - 1) : selectorCourse;
   };
 
-  const handleColorOfType = (color) => {
-    setTypeColor(color);
-  };
-
   return (
     <div className="h-full flex flex-col">
       <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
@@ -88,7 +84,7 @@ const CoursesComponent = () => {
           <div className="flex  grow">
             <CoursesTimeLineComponent
               position={selectorCourse}
-              color={handleColorOfType}
+              setColor={setTypeColor}
             />
           </div>
 
