@@ -16,7 +16,7 @@ const ToolsComponent = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
+      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-transparent">
         {t("toolsSection.title")}
       </h3>
       <div className="grid grid-cols-10 rounded-lg bg-[#f6f7f9] dark:bg-[#171719] h-full">

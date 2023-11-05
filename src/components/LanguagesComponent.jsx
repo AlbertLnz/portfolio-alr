@@ -13,7 +13,7 @@ const LanguagesComponent = () => {
 
   return (
     <div className="h-full flex flex-col items-center">
-      <h3 className="flex self-start pl-1 text-2xl pb-1 font-extrabold dark:bg-[#010101]">
+      <h3 className="flex self-start pl-1 text-2xl pb-1 font-extrabold dark:bg-transparent">
         {t("languagesSection.title")}
       </h3>
       <div className="flex-grow flex flex-col rounded-lg bg-[#f6f7f9] dark:bg-[#171719] text-center w-full">
