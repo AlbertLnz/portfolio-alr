@@ -27,19 +27,19 @@
       },
       "3": {
         "title": "ITA Landing",
-        "description": "Crud",
+        "description": "Página de información sobre la academia de programación ITAcademy donde mediante una conexión con el Back-End, muestra información de la academia y participantes. También tiene una parte de gestión de la propia página una vez el usuario inicia sesión (backoffice).",
         "github": "https://github.com/IT-Academy-BCN/ita-landing-frontend",
         "deploy": "https://it-academy-landing.netlify.app/"
       },
       "4": {
         "title": "ReserveEat",
-        "description": "Crud",
+        "description": "Web de gestión de reservas de diferentes restaurantes, la app permite crear varios usuarios donde cada uno puede manejar diferentes restaurantes, y donde posteriormente los usuarios clientes son capaces de crear reservas en día, turno y asignarle una mesa. El usuario también puede realizar reseñas del restaurante.",
         "github": "https://github.com/No-Country/nc_c14-40-m-php-vue",
         "deploy": "www.youtube.es"
       },
       "5": {
         "title": "ITA Profiles",
-        "description": "Crud",
+        "description": "Pàgina donde se muestra los colaboradorse que han participado en diferentes proyectos de la ITAcademy y que tiene com objectivo informar a los reclutadores los diferentes perfiles de los participantes.",
         "github": "https://github.com/IT-Academy-BCN/ita-profiles-frontend",
         "deploy": "www.youtube.es"
       }
