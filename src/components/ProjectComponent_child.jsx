@@ -9,7 +9,7 @@ const ProjectComponent_child = ({ project_position, image }) => {
   const [selector, setSelector] = useState("description");
 
   return (
-    <div className="flex grow mx-4 gap-2 my-4 h-full">
+    <div className="flex grow gap-2 h-full">
       <div className="h-full rounded-lg w-full mx-4">
         <img
           src={image}

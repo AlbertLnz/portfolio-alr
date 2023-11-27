@@ -20,7 +20,7 @@ const CoursesComponent = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <h3 className="flex pl-4 text-2xl pb-1 font-extrabold dark:bg-transparent">
+      <h3 className="flex pl-4 text-2xl font-extrabold dark:bg-transparent">
         {t("coursesSection.title")}
       </h3>
       <div className="flex-grow rounded-lg bg-[#f6f7f9] dark:bg-[#171719]">
@@ -29,7 +29,7 @@ const CoursesComponent = () => {
             {t(`coursesSection.courses.${selectorCourse}.title`)}
           </p>
           <p
-            className={`text-sm font-bold mr-2 px-4 py-0.5 rounded-full text-black ${typeColor}`}
+            className={`text-sm font-bold mr-2 px-4 rounded-full text-black ${typeColor}`}
           >
             {t(`coursesSection.courses.${selectorCourse}.type`)}
           </p>

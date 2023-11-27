@@ -18,8 +18,8 @@ const challengesVideos = [
   [
     {
       name: "Challenge nº3",
-      video: "Video 1 de JavaScript ",
-      poster: "https://i.ytimg.com/vi/tLsgtuOvdXQ/maxresdefault.jpg",
+      video: "../src/assets/videos/FiltersJS_NBAPlayers.mp4",
+      poster: "./src/assets/videos/FiltersJS_NBAPlayers.png",
       github_repository: "",
       challenge_url: "",
     },
